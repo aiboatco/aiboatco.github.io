@@ -1,1 +1,1 @@
-# aiboatco.github.io
+# 这是一个AI工具导航网站。
