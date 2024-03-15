@@ -22,7 +22,7 @@ title: AIBoat.co - 智舟AI工具导航 - 收录了国内外2000+优质AI工具�
 keywords: AIBoat,智舟AI导航,AI导航站,人工智能导航站,AI神器大全,AI工具大全,AI工具,AI神器,AI工具导航,ChatGPT,AIGC,Midjourney,StableDiffusion,AI绘画, AI聊天,AI工具集,AI工具箱,AI工具库,AI教程,FastAI,开源AI工具,AI开源项目,AI模型,人工智能工具,GPT直连站
 description: AIBoat AI导航站 收录了国内外 3000+优质AI工具，人工智能工具和模型，整理了AI对话聊天、AI绘画设计、AI视频制作、AI写作办公、AI编程开发等各类工具，还包括最新的AI资讯、AI绘画教程、AI工具技巧等实用内容。在这里，AI领域的专家和初学者都能轻松找到心仪的AI工具和学习资源。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aiboatco.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aiboat.co/" # the base hostname & protocol for your site, e.g. http://example.com
 
 email: admin@aiboat.co
 
