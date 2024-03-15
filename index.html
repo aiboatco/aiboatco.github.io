@@ -85,7 +85,7 @@ layout: home
             <div class="row">
                 {% for link in sub_category.links %}
                 <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('{{ link.url }}', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.description }}">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="opewin('{{ link.url }}')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.description }}">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
                                 <img src="{{ link.logo }}" class="img-circle" width="40">
@@ -108,7 +108,7 @@ layout: home
         <div class="row">
             {% for link in category.links %}
             <div class="col-sm-3">
-                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('{{ link.url }}', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.description }}">
+                <div class="xe-widget xe-conversations box2 label-info" onclick="opewin('{{ link.url }}')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.description }}">
                     <div class="xe-comment-entry">
                         <a class="xe-user-img">
                             <img src="{{ link.logo }}" class="img-circle" width="40">
@@ -148,6 +148,16 @@ layout: home
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!-- 锚点平滑移动 -->
 <script type="text/javascript">
+
+    function opewin(url){
+
+        //把url用base64加密
+        url = btoa(url);
+        window.open('go.html?uid='+url, '_blank');
+
+    }
+
+
     $(document).ready(function() {
 
         var rnd1 = Math.floor(Math.random() * 10); // 生成 0 到 9 的随机数
