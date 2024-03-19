@@ -16,10 +16,7 @@ layout: home
                 </a>
             </div>
             <div class="mobile-menu-toggle visible-xs">
-                <a href="#" data-toggle="user-info-menu">
-                    <i class="fa-cirlce"></i>
-                  </a>
-                  <a href="#" data-toggle="mobile-menu">
+                <a href="#" data-toggle="mobile-menu">
                     <i class="fa-bars"></i>
                 </a>
             </div>
@@ -71,7 +68,7 @@ layout: home
 </div>
 
 <div class="main-content">
-    <nav class="navbar user-info-navbar" role="navigation">
+    <!-- <nav class="navbar user-info-navbar" role="navigation">
         <ul class="user-info-menu left-links list-inline list-unstyled">
             <li class="hidden-sm hidden-xs">
                 <a href="#" data-toggle="sidebar">
@@ -79,7 +76,223 @@ layout: home
                 </a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
+
+                    <!-- User Info, Notifications and Menu Bar -->
+                    <nav class="navbar user-info-navbar" role="navigation">
+
+                        <!-- Left links for user info navbar -->
+                    <ul class="user-info-menu left-links list-inline list-unstyled">
+
+                        <li class="hidden-sm hidden-xs">
+                            <a href="#" data-toggle="sidebar">
+                                <i class="fa-bars"></i>
+                            </a>
+                        </li>
+<!-- message面板 -->
+                        @*<li class="dropdown hover-line">
+                            <a href="#" data-toggle="dropdown">
+                                <i class="fa-envelope-o"></i>
+                                <span class="badge badge-green">15</span>
+                            </a>
+
+                            <ul class="dropdown-menu messages">
+                                <li>
+
+                                    <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
+
+                                        <li class="active"><!-- "active" class means message is unread -->
+                                            <a href="#">
+                                                <span class="line">
+                                                    <strong>Luc Chartier</strong>
+                                                    <span class="light small">- yesterday</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          This ain’t our first item, it is the best of the rest.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li class="active">
+                                            <a href="#">
+                                                <span class="line">
+                                                    <strong>Salma Nyberg</strong>
+                                                    <span class="light small">- 2 days ago</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          Oh he decisively impression attachment friendship so if everything.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <span class="line">
+                          Hayden Cartwright
+                                                    <span class="light small">- a week ago</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          Whose her enjoy chief new young. Felicity if ye required likewise so doubtful.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <span class="line">
+                          Sandra Eberhardt
+                                                    <span class="light small">- 16 days ago</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          On so attention necessary at by provision otherwise existence direction.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                            <!-- Repeated -->
+
+                                        <li class="active"><!-- "active" class means message is unread -->
+                                            <a href="#">
+                                                <span class="line">
+                                                    <strong>Luc Chartier</strong>
+                                                    <span class="light small">- yesterday</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          This ain’t our first item, it is the best of the rest.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li class="active">
+                                            <a href="#">
+                                                <span class="line">
+                                                    <strong>Salma Nyberg</strong>
+                                                    <span class="light small">- 2 days ago</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          Oh he decisively impression attachment friendship so if everything.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <span class="line">
+                          Hayden Cartwright
+                                                    <span class="light small">- a week ago</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          Whose her enjoy chief new young. Felicity if ye required likewise so doubtful.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <span class="line">
+                          Sandra Eberhardt
+                                                    <span class="light small">- 16 days ago</span>
+                                                </span>
+
+                                                <span class="line desc small">
+                          On so attention necessary at by provision otherwise existence direction.
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </li>
+
+                                <li class="external">
+                                    <a href="#">
+                                        <span>All Messages</span>
+                                        <i class="fa-link-ext"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>*@
+
+
+
+                        <li class="dropdown hover-line">
+                            <a href="#" data-toggle="dropdown">
+                                <i class="fa-bell-o"></i>
+                                <span id="count" class="badge badge-purple"></span>
+                            </a>
+
+                            <ul class="dropdown-menu notifications">
+
+                                <li class="top">
+                                    <p class="small" id="small-title">
+                                        <a href="/readall" class="pull-right">mark all read</a>
+                                       you have <strong id="mes"></strong> new message
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <ul id="msglist" class="dropdown-menu-list list-unstyled ps-scrollbar">
+
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+
+
+
+
+
+                        <!-- Right links for user info navbar -->
+                    <ul class="user-info-menu right-links list-inline list-unstyled">
+
+
+                        <li>
+                            <a href="@routes.TaskManager.tasklist">
+                                <i class="fa-dot-circle-o"></i>
+                                Task Management
+                            </a>
+                        </li>
+
+
+
+                        <li class="dropdown user-profile">
+                            <a href="#" data-toggle="dropdown">
+                                <img src="@routes.Assets.at("images/user-4.png")" alt="user-image" class="img-circle img-inline userpic-32" width="28" />
+                                <span id="whoiam">
+                  NEP User
+                                    <i class="fa-angle-down"></i>
+                                </span>
+                            </a>
+
+                            <ul class="dropdown-menu user-profile-menu list-unstyled">
+                                <li class="last">
+                                    <a href="@routes.Authentication.logout">
+                                        <i class="fa-lock"></i>
+                                        logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+
+
 
     {% for category in site.data.webstack %}
         {% if category.sub %}
