@@ -3993,7 +3993,6 @@ body.chat-open #chat {
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li {
         min-height: 0!important;
         background-color: gold;
-        width: 25%;
         text-align: center;
     }
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li>a,
