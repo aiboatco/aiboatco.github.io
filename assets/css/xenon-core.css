@@ -3985,13 +3985,14 @@ body.chat-open #chat {
         border-bottom: 0
     }
     .page-container .main-content .navbar.user-info-navbar {
-        display: none
+        /* display: none */
     }
     .page-container .main-content .navbar.user-info-navbar.mobile-is-visible {
         display: block
     }
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li {
-        min-height: 0!important
+        min-height: 0!important;
+        background-color: gold;
     }
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li>a,
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li>form {
