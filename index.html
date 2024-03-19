@@ -69,10 +69,8 @@ layout: home
 
 <div class="main-content">
 				
-    <!-- User Info, Notifications and Menu Bar -->
     <nav class="navbar user-info-navbar" role="navigation">
         
-        <!-- Left links for user info navbar -->
         <ul class="user-info-menu left-links list-inline list-unstyled">
             
             <li class="hidden-sm hidden-xs">
@@ -80,11 +78,27 @@ layout: home
                     <i class="fa-bars"></i>
                 </a>
             </li>
+
             
             <li class="dropdown hover-line">
                 <a href="#" data-toggle="dropdown">
+                    <i class="fa-bell-o"></i>
+                    最佳
+                </a>
+            </li>
+
+
+            <li class="dropdown hover-line">
+                <a href="#" data-toggle="dropdown">
+                    <i class="fa-bell-o"></i>
+                    GPTS
+                </a>
+            </li>
+
+            <li class="dropdown hover-line">
+                <a href="#" data-toggle="dropdown">
                     <i class="fa-envelope-o"></i>
-                    <span class="badge badge-green">15</span>
+                    产品
                 </a>
                     
                 <ul class="dropdown-menu messages">
@@ -215,7 +229,7 @@ layout: home
             <li class="dropdown hover-line">
                 <a href="#" data-toggle="dropdown">
                     <i class="fa-bell-o"></i>
-                    <span class="badge badge-purple">7</span>
+                    类别
                 </a>
                     
                 <ul class="dropdown-menu notifications">
@@ -323,6 +337,17 @@ layout: home
                 </ul>
             </li>
             
+
+            <li class="dropdown hover-line">
+                <a href="#" data-toggle="dropdown">
+                    <i class="fa-bell-o"></i>
+                    排名
+                </a>
+            </li>
+
+
+
+
         </ul>
         
         
@@ -385,32 +410,15 @@ layout: home
                 </ul>
             </li>
             
-<!-- 					<li>
+            <li>
                 <a href="#" data-toggle="chat">
                     <i class="fa-comments-o"></i>
                 </a>
-            </li> -->
+            </li>
             
         </ul>
         
     </nav>
-    <script>
-    jQuery(document).ready(function($)
-    {
-        $('a[href="#layout-variants"]').on('click', function(ev)
-        {
-            ev.preventDefault();
-            
-            var win = {top: $(window).scrollTop(), toTop: $("#layout-variants").offset().top - 15};
-            
-            TweenLite.to(win, .3, {top: win.toTop, roundProps: ["top"], ease: Sine.easeInOut, onUpdate: function()
-                {
-                    $(window).scrollTop(win.top);
-                }
-            });
-        });
-    });
-    </script>
 
 
     {% for category in site.data.webstack %}
