@@ -5,17 +5,17 @@ permalink: /genmd.html
 
 
     {% for category in site.data.webstack %}
-
-        {% assign category = category.name %}
-
         {% if category.sub %}
             {% for sub_category in category.sub %}
+
+
 
                 {% for link in sub_category.links %}
 
                     {% assign title = link.title %}
                     {% assign layout = "tool" %}
                     {% assign author = "james" %}
+                    {% assign cate = category.name %}
                     {% assign icon = category.icon %}
                     {% assign color = category.color %}
                     {% assign subcategory = sub_category.name %}
@@ -27,7 +27,7 @@ permalink: /genmd.html
                     echo "title: {{ title }}" >> output.txt
                     echo "layout: {{ layout }}" >> output.txt
                     echo "author: {{ author }}" >> output.txt
-                    echo "category: {{ category }}" >> output.txt
+                    echo "category: {{ cate }}" >> output.txt
                     echo "icon: {{ icon }}" >> output.txt
                     echo "color: {{ color }}" >> output.txt
                     echo "subcategory: {{ subcategory }}" >> output.txt
@@ -41,12 +41,12 @@ permalink: /genmd.html
 
             {% endfor %}
         {% else if %}
-
             {% for link in category.links %}
 
                 {% assign title = link.title %}
                 {% assign layout = "tool" %}
                 {% assign author = "james" %}
+                {% assign cate = category.name %}
                 {% assign icon = category.icon %}
                 {% assign color = category.color %}
                 {% assign subcategory = "" %}
@@ -58,7 +58,7 @@ permalink: /genmd.html
                 echo "title: {{ title }}" >> output.txt
                 echo "layout: {{ layout }}" >> output.txt
                 echo "author: {{ author }}" >> output.txt
-                echo "category: {{ category }}" >> output.txt
+                echo "category: {{ cate }}" >> output.txt
                 echo "icon: {{ icon }}" >> output.txt
                 echo "color: {{ color }}" >> output.txt
                 echo "subcategory: {{ subcategory }}" >> output.txt
