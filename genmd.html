@@ -5,17 +5,17 @@ permalink: /genmd.html
 
 
     {% for category in site.data.webstack %}
+
+        {% assign category = category.name %}
+
         {% if category.sub %}
             {% for sub_category in category.sub %}
-
-
 
                 {% for link in sub_category.links %}
 
                     {% assign title = link.title %}
                     {% assign layout = "tool" %}
                     {% assign author = "james" %}
-                    {% assign category = category.name.name %}
                     {% assign icon = category.icon %}
                     {% assign color = category.color %}
                     {% assign subcategory = sub_category.name %}
@@ -41,12 +41,12 @@ permalink: /genmd.html
 
             {% endfor %}
         {% else if %}
+
             {% for link in category.links %}
 
                 {% assign title = link.title %}
                 {% assign layout = "tool" %}
                 {% assign author = "james" %}
-                {% assign category = category.name.name %}
                 {% assign icon = category.icon %}
                 {% assign color = category.color %}
                 {% assign subcategory = "" %}
