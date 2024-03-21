@@ -1,0 +1,75 @@
+---
+permalink: /genmd.html
+---
+
+
+
+    {% for category in site.data.webstack %}
+        {% if category.sub %}
+            {% for sub_category in category.sub %}
+
+
+
+                {% for link in sub_category.links %}
+
+                    {% assign title = link.title %}
+                    {% assign layout = "tool" %}
+                    {% assign author = "james" %}
+                    {% assign category = category.name %}
+                    {% assign icon = category.icon %}
+                    {% assign color = category.color %}
+                    {% assign subcategory = sub_category.name %}
+                    {% assign description = link.description %}
+                    {% assign logo = link.logo %}
+                    {% assign url = link.url %}
+
+                    echo "---" >> output.txt
+                    echo "title: {{ title }}" >> output.txt
+                    echo "layout: {{ layout }}" >> output.txt
+                    echo "author: {{ author }}" >> output.txt
+                    echo "category: {{ category }}" >> output.txt
+                    echo "icon: {{ icon }}" >> output.txt
+                    echo "color: {{ color }}" >> output.txt
+                    echo "subcategory: {{ subcategory }}" >> output.txt
+                    echo "description: {{ description }}" >> output.txt
+                    echo "logo: {{ logo }}" >> output.txt
+                    echo "url: {{ url }}" >> output.txt
+
+                    echo "---" >> output.txt
+
+                {% endfor %}
+
+            {% endfor %}
+        {% else if %}
+            {% for link in category.links %}
+
+                {% assign title = link.title %}
+                {% assign layout = "tool" %}
+                {% assign author = "james" %}
+                {% assign category = category.name %}
+                {% assign icon = category.icon %}
+                {% assign color = category.color %}
+                {% assign subcategory = "" %}
+                {% assign description = link.description %}
+                {% assign logo = link.logo %}
+                {% assign url = link.url %}
+
+                echo "---" >> output.txt
+                echo "title: {{ title }}" >> output.txt
+                echo "layout: {{ layout }}" >> output.txt
+                echo "author: {{ author }}" >> output.txt
+                echo "category: {{ category }}" >> output.txt
+                echo "icon: {{ icon }}" >> output.txt
+                echo "color: {{ color }}" >> output.txt
+                echo "subcategory: {{ subcategory }}" >> output.txt
+                echo "description: {{ description }}" >> output.txt
+                echo "logo: {{ logo }}" >> output.txt
+                echo "url: {{ url }}" >> output.txt
+
+                echo "---" >> output.txt
+
+            {% endfor %}
+
+        {% endif %}
+    {% endfor %}    
+    
