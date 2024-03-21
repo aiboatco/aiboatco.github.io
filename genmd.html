@@ -4,72 +4,71 @@ permalink: /genmd.html
 
 
 
-    {% for category in site.data.webstack %}
-        {% if category.sub %}
-            {% for sub_category in category.sub %}
+{% for category in site.data.webstack %}
+{% if category.sub %}
+{% for sub_category in category.sub %}
 
 
 
-                {% for link in sub_category.links %}
+{% for link in sub_category.links %}
 
-                    {% assign title = link.title %}
-                    {% assign layout = "tool" %}
-                    {% assign author = "james" %}
-                    {% assign cate = category.name %}
-                    {% assign icon = category.icon %}
-                    {% assign color = category.color %}
-                    {% assign subcategory = sub_category.name %}
-                    {% assign description = link.description %}
-                    {% assign logo = link.logo %}
-                    {% assign url = link.url %}
+{% assign title = link.title %}
+{% assign layout = "tool" %}
+{% assign author = "james" %}
+{% assign cate = category.name %}
+{% assign icon = category.icon %}
+{% assign color = category.color %}
+{% assign subcategory = sub_category.name %}
+{% assign description = link.description %}
+{% assign logo = link.logo %}
+{% assign url = link.url %}
 
-                    echo "---" >> "{{ title }}.txt"
-                    echo "title: {{ title }}" >> "{{ title }}.txt"
-                    echo "layout: {{ layout }}" >> "{{ title }}.txt"
-                    echo "author: {{ author }}" >> "{{ title }}.txt"
-                    echo "category: {{ cate }}" >> "{{ title }}.txt"
-                    echo "icon: {{ icon }}" >> "{{ title }}.txt"
-                    echo "color: {{ color }}" >> "{{ title }}.txt"
-                    echo "subcategory: {{ subcategory }}" >> "{{ title }}.txt"
-                    echo "description: {{ description }}" >> "{{ title }}.txt"
-                    echo "logo: {{ logo }}" >> "{{ title }}.txt"
-                    echo "url: {{ url }}" >> "{{ title }}.txt"
+echo "---" >> "{{ title }}.txt"
+echo "title: {{ title }}" >> "{{ title }}.txt"
+echo "layout: {{ layout }}" >> "{{ title }}.txt"
+echo "author: {{ author }}" >> "{{ title }}.txt"
+echo "category: {{ cate }}" >> "{{ title }}.txt"
+echo "icon: {{ icon }}" >> "{{ title }}.txt"
+echo "color: {{ color }}" >> "{{ title }}.txt"
+echo "subcategory: {{ subcategory }}" >> "{{ title }}.txt"
+echo "description: {{ description }}" >> "{{ title }}.txt"
+echo "logo: {{ logo }}" >> "{{ title }}.txt"
+echo "url: {{ url }}" >> "{{ title }}.txt"
 
-                    echo "---" >> "{{ title }}.txt"
+echo "---" >> "{{ title }}.txt"
 
-                {% endfor %}
+{% endfor %}
 
-            {% endfor %}
-        {% else if %}
-            {% for link in category.links %}
+{% endfor %}
+{% else if %}
+{% for link in category.links %}
 
-                {% assign title = link.title %}
-                {% assign layout = "tool" %}
-                {% assign author = "james" %}
-                {% assign cate = category.name %}
-                {% assign icon = category.icon %}
-                {% assign color = category.color %}
-                {% assign subcategory = "" %}
-                {% assign description = link.description %}
-                {% assign logo = link.logo %}
-                {% assign url = link.url %}
+{% assign title = link.title %}
+{% assign layout = "tool" %}
+{% assign author = "james" %}
+{% assign cate = category.name %}
+{% assign icon = category.icon %}
+{% assign color = category.color %}
+{% assign subcategory = "" %}
+{% assign description = link.description %}
+{% assign logo = link.logo %}
+{% assign url = link.url %}
 
-                echo "---" >> "{{ title }}.txt"
-                echo "title: {{ title }}" >> "{{ title }}.txt"
-                echo "layout: {{ layout }}" >> "{{ title }}.txt"
-                echo "author: {{ author }}" >> "{{ title }}.txt"
-                echo "category: {{ cate }}" >> "{{ title }}.txt"
-                echo "icon: {{ icon }}" >> "{{ title }}.txt"
-                echo "color: {{ color }}" >> "{{ title }}.txt"
-                echo "subcategory: {{ subcategory }}" >> "{{ title }}.txt"
-                echo "description: {{ description }}" >> "{{ title }}.txt"
-                echo "logo: {{ logo }}" >> "{{ title }}.txt"
-                echo "url: {{ url }}" >> "{{ title }}.txt"
+echo "---" >> "{{ title }}.txt"
+echo "title: {{ title }}" >> "{{ title }}.txt"
+echo "layout: {{ layout }}" >> "{{ title }}.txt"
+echo "author: {{ author }}" >> "{{ title }}.txt"
+echo "category: {{ cate }}" >> "{{ title }}.txt"
+echo "icon: {{ icon }}" >> "{{ title }}.txt"
+echo "color: {{ color }}" >> "{{ title }}.txt"
+echo "subcategory: {{ subcategory }}" >> "{{ title }}.txt"
+echo "description: {{ description }}" >> "{{ title }}.txt"
+echo "logo: {{ logo }}" >> "{{ title }}.txt"
+echo "url: {{ url }}" >> "{{ title }}.txt"
 
-                echo "---" >> "{{ title }}.txt"
+echo "---" >> "{{ title }}.txt"
 
-            {% endfor %}
+{% endfor %}
 
-        {% endif %}
-    {% endfor %}    
-    
+{% endif %}
+{% endfor %}    
