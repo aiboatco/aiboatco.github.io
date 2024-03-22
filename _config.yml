@@ -31,6 +31,21 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+collections:
+    tool:
+        output: true
+        permalink: /tool/:path/
+    category:
+        output: true
+        permalink: /category/:path/
+    course:
+        output: true
+        permalink: /course/:path/
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
 # github:
 #   repo: 0xl2oot/webstack-jekyll
 

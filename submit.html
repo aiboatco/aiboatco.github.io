@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: /submit.html
 layout: home
 ---
 
@@ -8,14 +8,14 @@ layout: home
 
   {% for category in site.data.webstack %} {% if category.sub %} {% for
   sub_category in category.sub %}
-  <h3 class="text-gray" style="font-weight: bold">
+  <h4 class="text-gray" style="font-weight: bold">
     <i
       class="linecons-tag"
       style="margin-right: 7px; font-size: x-large"
       id="{{ sub_category.name }}"
     ></i
     >{{ sub_category.name }}
-  </h3>
+  </h4>
   <div class="row">
     {% for link in sub_category.links %}
     <div class="col-sm-3">
@@ -44,14 +44,14 @@ layout: home
   </div>
   <br />
   {% endfor %} {% else if %}
-  <h3 class="text-gray">
+  <h4 class="text-gray">
     <i
       class="linecons-tag"
       style="margin-right: 7px"
       id="{{ category.name }}"
     ></i
     >{{ category.name }}
-  </h3>
+  </h4>
   <div class="row">
     {% for link in category.links %}
     <div class="col-sm-3">
