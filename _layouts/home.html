@@ -68,6 +68,10 @@
         url = btoa(url);
         window.open("go.html?uid=" + url, "_blank");
       }
+
+      function opehref(url) {
+        window.open(url, "_self");
+      }
     
       $(document).ready(function () {
         var rnd1 = Math.floor(Math.random() * 10); // 生成 0 到 9 的随机数
