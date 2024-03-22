@@ -16,9 +16,12 @@ layout: category
 
 
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" title="">
+    <div class="xe-widget xe-conversations box2 label-info" style="
+    padding: 20px 30px 0px 30px;
+    height: 60px;
+">
       <div class="xe-comment-entry">
-        <i class="{{ sub_category.icon }}" style="margin-right: 7px; font-size: x-large" id="{{ sub_category.name }}"></i>
+        <!-- <i class="{{ sub_category.icon }}" style="margin-right: 7px; font-size: x-large" id="{{ sub_category.name }}"></i> -->
         <div class="xe-comment">
           <a href="javascript:void();" class="xe-user-name overflowClip_1">
              {{sub_category.name }} ({{sub_category.links.size }})
