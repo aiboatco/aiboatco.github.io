@@ -1,0 +1,114 @@
+- name: AI热门工具
+  icon: fa-star
+  color: red
+  links: 
+    - url: https://d.design/ai?from=feizhuai
+      logo: /assets/images/logos/img_655d8cedf2575.png
+      title: 堆友AI-免费AI绘画神器
+      description: 阿里出品免费ai绘画神器,0门槛免费生成,AI行业大咖联合推荐！
+    - url: https://miaobi.xinhuaskl.com/?channel=aiboat
+      logo: /assets/images/logos/img_65e0589d452c8.png 
+      title: 新华妙笔
+      description: 新华社出品AI公文写作平台,新华妙笔,引领公文写作革新的ai写作工具
+    - url: https://dmla.lanzouy.com/b05qkm9ve
+      logo: /assets/images/logos/img_64f964243317e.png 
+      title: 免费ai chat写作
+      description: 支持ai写作,绘画,ppt,抠图,文档理解,翻译,真人语音合成....等几十种ai工具!
+    - url: https://www.notion.so/product/ai
+      logo: /assets/images/logos/62564-www.notion.so.png 
+      title: Notion AI
+      description: Notion AI,强大的AI写作助手,帮助用户快速撰写、编辑、总结文本内容
+    - url: https://ailjyk.com/pc/?share_id=6473&user_sn=81536109
+      logo: /assets/images/logos/img_65ea82d787d06.png 
+      title: 宙语Cosmos AI写作
+      description: 宙语是一个全能型AI智能写作网站，帮助您快速高效地撰写各类文章。
+    - url: https://juxinai.com/generate/1
+      logo: /assets/images/logos/img_65ea84d120bfb.png 
+      title: 句心AI论文助手
+      description: 句心AI论文助手,免费千字写作大纲，10分钟自动生成万字专题
+    - url: https://www.aipaperpass.com?pic=WyPq
+      logo: /assets/images/logos/img_65e57c4bc2f94.png 
+      title: AI一键论文
+      description: AI一键论文,AIPaperPass,AI论文写作平台,5分钟3万字,附带ppt,开题报告,40篇真实参考文献,5%重复率
+    - url: https://ibiling.cn/paper?from=bmypaper
+      logo: /assets/images/logos/img_658513f767fc6.png 
+      title: 笔灵AI论文
+      description: 专业AI论文写作,免费生成千字论文大纲,AI一键生成4w字毕业论文,课题论文,期末论文等
+    - url: https://github.com/Torantulino/Auto-GPT
+      logo: /assets/images/logos/e3595-github.com.png 
+      title: autogpt
+      description: autogpt,基于GPT-4自主完成复杂任务全程无需人类,傻傻向ChatGPT下指令过时了
+    - url: https://chat.moyanaigc.com/h5/?irgr&tuid=5
+      logo: /assets/images/logos/img_652c875549caf.png 
+      title: 免费ChatAI写作
+      description: 免费ai写作,对话+流畅体验,陌言ai,AI绘画,ChatAI
+    - url: https://ai.kezhan365.com/?utm_code=dhz-cbq-dhl-003
+      logo: /assets/images/logos/img_65e57a7085a4e.png 
+      title: 万彩AI
+      description: 万彩AI,ai写作,数字人,一键成片短视频,换脸秀,写真馆,爆款文案,公众号创作
+    - url: http://douchu.ai/login?inviteCode=126502&channel=channel_invite
+      logo: /assets/images/logos/3721b-acgnai.com.png 
+      title: 免费触手ai绘画
+      description: 免费!触手ai绘画,写作!专业版app软件下载,免费训练AI绘画模型
+    - url: https://www.houdeyun.cn/?from=aiboat.co
+      logo: /assets/images/logos/img_65e3735aeda3c.png 
+      title: 免费GPU算力云
+      description: 免费使用7天RTX4090,专业的GPU算力云平台,可靠,稳定,易用,省钱,gpu主机,云主机,跨境电商,云桌面
+    - url: https://account.console.wangsu.com/register/register-info?inviteCode=1612048
+      logo: /assets/images/logos/img_65e1820dcc86d.png 
+      title: 网宿科技
+      description: GPU算力、全球CDN安全加速、securelink国内外互访互通,全球领先的ICT基础平台服务提供商
+    - url: https://www.cursor.so/
+      logo: /assets/images/logos/61e28-www.cursor.so.png 
+      title: cursor
+      description: cursor,免费gpt4,gpt3.5,基于GPT的ai代码生成器
+    - url: https://chat.openai.com/chat
+      logo: /assets/images/logos/img_6474a59fe8ff4.png 
+      title: ChatGPT
+      description: 原版ChatGPT,由OpenAI开发的一款基于人工智能技术的对话机器人，使用自然语言处理和机器学习算法，可以理解和生成类似人类语言的对话。需要科学-上网!
+    - url: https://plugin.baidu.com
+      logo: /assets/images/logos/img_652f8b9b2524a.png 
+      title: 灵境矩阵平台
+      description: 百度灵境矩阵平台,文心大模型插件开发/文心一言ai插件平台
+    - url: https://beta.character.ai/
+      logo: /assets/images/logos/1e155-beta.character.ai.png 
+      title: Character ai
+      description: Character ai,在线智能AI聊天机器人,角色扮演,神经语言模型
+    - url: https://faceswap.dev/?ref=aiboat.co
+      logo: /assets/images/logos/2f09c-faceswap.dev.png 
+      title: FaceSwap
+      description: FaceSwap,Face Swap视频AI换脸工具软件
+    - url: https://www.stablevideo.com/
+      logo: /assets/images/logos/c20b7-www.stablevideo.com.png 
+      title: Stable Video Diffusion
+      description: 免费ai生成视频本地部署,Stable Video Diffusion,svd视频生成本地部署安装配置,有哪些功能,使用教程
+    - url: https://github.com/AUTOMATIC1111/stable-diffusion-webui?ref=aiboat.co
+      logo: /assets/images/logos/60274-github.com.png 
+      title: stable diffusion webui
+      description: 免费ai绘画,stable diffusion webui本地部署下载,mac,window安装,使用教程
+    - url: https://www.resemble.ai/
+      logo: /assets/images/logos/7123d-www.resemble.ai.png 
+      title: resemble ai
+      description: resemble ai,5秒克隆你的声音,并生成任何内容
+    - url: https://bard.google.com/
+      logo: /assets/images/logos/b6770-bard.google.com.png 
+      title: google bard
+      description: Bard(改名gemini)是由谷歌 LaMDA 模型提供支持的对话 AI 服务，利用来自互联网的信息提供最新、高质量的回复
+    - url: https://claude.ai/chats
+      logo: /assets/images/logos/56546-claude.ai.png 
+      title: claude
+      description: claude AI 聊天机器人,ChatGPT免费平替
+    - url: https://github.com/features/copilot
+      logo: /assets/images/logos/870bc-github.com.png 
+      title: copilot
+      description: github copilot ai官网,微软推出的协助用户智能生成Word,Excel,PowerPoint,Outlook,Teams等
+    - url: https://huggingface.co/
+      logo: /assets/images/logos/31fc0-huggingface.co.png 
+      title: hugging face
+      description: hugging face,huggingface是一个专注于聊天机器人服务的GitHub
+    - url: https://poe.com/?ref=aiboat.co
+      logo: /assets/images/logos/6f18a-poe.com.png 
+      title: poe ai
+      description: poe ai,整合6种AI聊天机器人服务,免费使用,chatgpt,claude+,gpt4,sage,neeva ai,dragonfly
+
+
