@@ -974,7 +974,7 @@ body {
 }
 
 .sidebar-menu .main-menu a {
-    color: #c6c9cf;
+    /* color: #c6c9cf; */
     text-decoration: none;
     display: block;
     padding: 13px 5px;
@@ -1004,12 +1004,17 @@ body {
     line-height: 1.2
 }
 
+.sidebar-menu .main-menu li:hover {
+    background-color: rgb(245, 245, 245);
+    border-radius: 2%;
+}
+
 .sidebar-menu .main-menu a:hover {
-    color: #fff
+    color: #9600c0
 }
 
 .sidebar-menu .main-menu li.active>a {
-    color: #fff
+    color: black
 }
 
 .sidebar-menu .main-menu li.has-sub>a:before {
