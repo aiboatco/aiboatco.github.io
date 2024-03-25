@@ -1,0 +1,28 @@
+---
+permalink: /genprod.html
+---
+
+
+
+{% for category in site.data.webstack %}
+{% if category.sub %}
+
+{% for sub_category in category.sub %}
+
+{% for link in sub_category.links %}
+
+rm "{{sub_category.name | replace: '/', '\\/' }}-{{ link.title | replace: '/', '\\/' }}.html"
+
+sed 's/aatitle/{{ link.title | replace: '/', '\\/' }}/g' "template.html" > "aaaaaaaa0.html"
+sed 's/aaimage/{{ link.logo | replace: '/', '\\/' }}/g' "aaaaaaaa0.html" > "aaaaaaaa1.html"
+sed 's/aadescription/{{ link.description | replace: '/', '\\/' }}/g' "aaaaaaaa1.html" > "aaaaaaaa2.html"
+sed 's/aasubcategory/{{ sub_category.name | replace: '/', '\\/' }}/g' "aaaaaaaa2.html" > "aaaaaaaa3.html"
+sed 's/aapermalink/{{sub_category.name | replace: '/', '\\/' }}-{{ link.title | replace: '/', '\\/' }}/g' "aaaaaaaa3.html" > "aaaaaaaa4.html"
+sed 's/aalink/{{ link.url | replace: '/', '\\/'  }}/g' "aaaaaaaa4.html" > "{{sub_category.name | replace: '/', '\\/' }}-{{ link.title | replace: '/', '\\/' }}.html"
+
+{% endfor %}
+
+{% endfor %}
+
+{% endif %}
+{% endfor %}    
