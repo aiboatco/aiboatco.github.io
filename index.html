@@ -1,0 +1,54 @@
+---
+permalink: /index.html
+layout: home
+---
+
+{% assign sort_products =  site.product | where_exp: 'p', 'p.title != "aatitle"' | sort: 'indate' | reverse %}
+
+{% assign grouped_products =  sort_products | group_by: 'indate' %}
+
+{% for group in grouped_products %}
+
+<h2 class="text-gray" style="font-size: 1.2rem;font-weight: bold;">
+  <i class="linecons-tag" style="margin-right: 7px; font-size: x-large" id="{{ group.name }}"></i>
+  {{ group.name }}
+</h2>
+<div class="row">
+
+    {% assign products_sorted = group.items %}
+    {% assign number_of_products = 24 %}
+    {% for product in products_sorted limit:number_of_products %}
+
+ 
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="openwin('{{ product.subcategoryname }}', '{{ product.title }}')"  
+      data-placement="bottom" title="{{ product.description }}"   style="height: 128px;">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img src="{{ product.logo }}" class="img-circle" width="40" />
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1" style="
+          font-size: 1.28rem;
+          padding-top: 6px;
+      ">
+            <strong>{{ product.title }}</strong>
+          </a>
+          <p class="overflowClip_2"     style="margin-top: 20px;
+          font-size: 1rem;">{{ product.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% endfor %}
+
+
+</div>
+<br />
+
+{% endfor %}
+
+
+

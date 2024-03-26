@@ -1,0 +1,40 @@
+---
+permalink: /category.html
+layout: category
+---
+
+{% for category in site.data.webstack %}
+
+<h4 class="text-gray" style="font-weight: bold">
+  <i class="linecons-tag" style="margin-right: 7px; font-size: x-large" id="{{ category.name }}"></i>{{
+    category.name }}
+</h4>
+
+<div class="row">
+
+{% if category.sub %} {% for sub_category in category.sub %}
+
+
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+    <div class="xe-widget xe-conversations box1 label-info" style="
+    padding: 20px 30px 0px 30px;
+    height: 60px;
+">
+      <div class="xe-comment-entry">
+        <!-- <i class="{{ sub_category.icon }}" style="margin-right: 7px; font-size: x-large" id="{{ sub_category.name }}"></i> -->
+        <div class="xe-comment">
+          <a href="javascript:opehref('/category/{{category.name }}-{{sub_category.name }}');" class="xe-user-name overflowClip_1">
+             {{sub_category.name }} ({{sub_category.links.size }})
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endfor %} 
+</div>
+<br />
+{% endif %} 
+
+{% endfor %}
