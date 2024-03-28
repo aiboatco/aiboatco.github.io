@@ -3999,7 +3999,7 @@ body.chat-open #chat {
     }
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li {
         min-height: 0!important;
-        background-color: gold;
+        background-color: #ace0f5;
         text-align: center;
         width: 25%;
     }

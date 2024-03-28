@@ -19,24 +19,13 @@
       <ul id="main-menu" class="main-menu">
         {% for category in site.data.webstack %}
         <li>
-          {% if category.sub %}
-          <a style="border-bottom: 0;">
+          <a href="/category.html#{{ category.name }}" class="smooth" style="border-bottom: 0;">
             <i
               class="{{ category.icon }}"
               style="width: 28px; color: {{ category.color }}"
             ></i>
             <span class="title" style="font-size: 1.1rem; ">{{ category.name }}</span>
           </a>
-          <ul>
-            {% for sub_category in category.sub %}
-            <li>
-              <a href="/category/{{ category.name }}-{{ sub_category.name }}" class="smooth" style="border-bottom: 0;">
-                <span class="title" style="">{{ sub_category.name }}</span>
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
         </li>
         {% endfor %}
   

@@ -4,17 +4,23 @@ permalink: /gencate.html
 
 
 
-{% for category in site.data.webstack %}
-{% if category.sub %}
+{% assign categories = "" | split: "" %}
+{% assign subcategories = "" | split: "" %}
 
-{% for sub_category in category.sub %}
-
-sed 's/aaaaaaaa/{{ category.name }}/g' template.html > "aaaaaaaa.html"
-sed 's/bbbbbbbb/{{ sub_category.name }}/g' aaaaaaaa.html > "{{category.name }}-{{ sub_category.name }}.html"
-
+{% for item in site.product %}
+{% if item.title != "aatitle" %}
+{% assign cat_sub = item.categoryname | append: "-" | append: item.subcategoryname %}
+{% unless categories contains cat_sub %}
+{% assign categories = categories | push: cat_sub %}
+{% endunless %}
+{% endif %}
 {% endfor %}
 
-{% endif %}
-{% endfor %}    
+{% for cat_sub in categories %}
+{% assign category = cat_sub | split: "-" | first %}
+{% assign sub_category = cat_sub | split: "-" | last %}
+sed 's/aaaaaaaa/{{ category }}/g' template.html > "aaaaaaaa.html"
+sed 's/bbbbbbbb/{{ sub_category }}/g' aaaaaaaa.html > "{{ category }}-{{ sub_category }}.html"
+{% endfor %}
 
-rm "aaaaaaaa*.html"
+rm aaaaaaaa.html

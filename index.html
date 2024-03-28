@@ -21,8 +21,16 @@ layout: home
 
  
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="openwin('{{ product.subcategoryname }}', '{{ product.title }}')"  
+    <div class="xe-widget xe-conversations box2 label-info" onclick="openwin('{{ product.categoryname }}', '{{ product.subcategoryname }}', '{{ product.title }}')"  
       data-placement="bottom" title="{{ product.description }}"   style="height: 128px;">
+  
+  {% assign new_date = 'now' | date: "%s" | minus: 172800 | date: "%Y-%m-%d" %}
+  {% if group.name >= new_date %}
+      <div style="text-align: right; margin-top: -4px;">
+        <sup style="font-size: 1rem; color: red;font-family: fantasy;">new</sup>
+      </div>
+  {% endif %}    
+
       <div class="xe-comment-entry">
         <a class="xe-user-img">
           <img src="{{ product.logo }}" class="img-circle" width="40" />
