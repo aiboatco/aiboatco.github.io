@@ -28,8 +28,8 @@ email: admin@aiboat.co
 
 # Build settings
 theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 
 collections:
     product:
