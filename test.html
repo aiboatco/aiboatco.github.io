@@ -1,0 +1,9 @@
+---
+permalink: /test.html
+---
+
+
+{% assign sort_products =  site.product | where_exp: 'p', 'p.categoryname == "办公商务" and p.subcategoryname == "AI格式转换"' %}
+
+{{ sort_products.size }}
+

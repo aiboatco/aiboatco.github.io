@@ -3,9 +3,9 @@ permalink: /index.html
 layout: home
 ---
 
-{% assign sort_products =  site.product | where_exp: 'p', 'p.title != "aatitle"' | sort: 'indate' | reverse %}
+{% assign sort_products =  site.product | where_exp: 'p', 'p.prodtitle != "aatitle"' | sort: 'prodindate' | reverse %}
 
-{% assign grouped_products =  sort_products | group_by: 'indate' %}
+{% assign grouped_products =  sort_products | group_by: 'prodindate' %}
 
 {% for group in grouped_products %}
 
@@ -21,7 +21,7 @@ layout: home
 
  
   <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="openwin('{{ product.categoryname }}', '{{ product.subcategoryname }}', '{{ product.title }}')"  
+    <div class="xe-widget xe-conversations box2 label-info" onclick="openwin('{{ product.categoryname }}', '{{ product.subcategoryname }}', '{{ product.prodtitle }}')"  
       data-placement="bottom" title="{{ product.description }}"   style="height: 128px;">
   
   {% assign new_date = 'now' | date: "%s" | minus: 172800 | date: "%Y-%m-%d" %}
@@ -33,17 +33,17 @@ layout: home
 
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img src="{{ product.logo }}" class="img-circle" width="40" />
+          <img src="{{ product.prodlogo }}" class="img-circle" width="40" />
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1" style="
           font-size: 1.28rem;
           padding-top: 6px;
       ">
-            <strong>{{ product.title }}</strong>
+            <strong>{{ product.prodtitle }}</strong>
           </a>
           <p class="overflowClip_2"     style="margin-top: 20px;
-          font-size: 1rem;">{{ product.description }}</p>
+          font-size: 1rem;">{{ product.proddescription }}</p>
         </div>
       </div>
     </div>
