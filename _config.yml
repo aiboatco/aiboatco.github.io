@@ -27,9 +27,9 @@ url: "https://aiboat.co/" # the base hostname & protocol for your site, e.g. htt
 email: admin@aiboat.co
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 collections:
     product:
