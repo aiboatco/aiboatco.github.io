@@ -1,0 +1,770 @@
+
+- name:  文字与写作
+  ename: Text Writing
+  icon: fa-pencil-square
+  color: cornflowerblue
+  sub: 
+    - name: 博客写作
+      ename: AI Blog Writer
+      href: ai-blog-writer
+    - name: 翻译
+      ename: Translate
+      href: translate
+    - name: 论文写作
+      ename: Papers
+      href: papers
+    - name: 手写体
+      ename: Handwriting
+      href: handwriting
+    - name: 文案写作
+      ename: Copywriting
+      href: copywriting
+    - name: 说明文字
+      ename: Captions or Subtitle
+      href: captions-or-subtitle
+    - name: 论文写作
+      ename: Essay Writer
+      href: essay-writer
+    - name: 写信
+      ename: Letter Writer
+      href: letter-writer
+    - name: 歌词
+      ename: AI Lyrics Generator
+      href: ai-lyrics-generator
+    - name: 报告写作
+      ename: Report Writing
+      href: report-writing
+    - name: 重写
+      ename: AI Rewriter
+      href: ai-rewriter
+    - name: 脚本编写
+      ename: AI Script Writing
+      href: ai-script-writing
+    - name: 故事写作
+      ename: AI Story Writing
+      href: ai-story-writing
+    - name: 生物
+      ename: AI Bio Generator
+      href: ai-bio-generator
+    - name: 写书
+      ename: AI Book Writing
+      href: ai-book-writing
+    - name: 段落解析
+      ename: Paraphraser
+      href: paraphraser
+    - name: 诗歌
+      ename: AI Poem & Poetry Generator
+      href: ai-poem-poetry-generator
+    - name: 摘要
+      ename: Summarizer
+      href: summarizer
+    - name: 线索
+      ename: Pick-up Lines Generator
+      href: pick-up-lines-generator
+    - name: 转录
+      ename: Transcription
+      href: transcription
+    - name: 通用写作
+      ename: General Writing
+      href: general-writing
+    - name: 写作助理
+      ename: Writing Assistants
+      href: writing-assistants
+
+- name:  图像
+  ename: Image
+  icon: fa-image
+  color: orangered
+  sub: 
+    - name: 文本到图像
+      ename: Text to Image
+      href: text-to-image
+    - name: 照片图像生成
+      ename: AI Photo & Image Generator
+      href: ai-photo-image-generator
+    - name: 插图生成
+      ename: AI Illustration Generator
+      href: ai-illustration-generator
+    - name: 头像生成
+      ename: AI Avatar Generator
+      href: ai-avatar-generator
+    - name: 背景生成
+      ename: AI Background Generator
+      href: ai-background-generator
+    - name: 横幅生成
+      ename: AI Banner Generator
+      href: ai-banner-generator
+    - name: 封面生成
+      ename: AI Cover Generator
+      href: ai-cover-generator
+    - name: 表情符号生成
+      ename: AI Emoji Generator
+      href: ai-emoji-generator
+    - name: GIF 生成
+      ename: AI GIF Generator
+      href: ai-gif-generator
+    - name: 图标生成
+      ename: AI Icon Generator
+      href: ai-icon-generator
+    - name: 图像增强
+      ename: AI Image Enhancer
+      href: ai-image-enhancer
+    - name: 标志生成
+      ename: AI Logo Generator
+      href: ai-logo-generator
+    - name: 照片和图像编辑
+      ename: Photo & Image Editor
+      href: photo-image-editor
+    - name: 照片增强
+      ename: AI Photo Enhancer
+      href: ai-photo-enhancer
+    - name: 照片修复
+      ename: AI Photo Restoration
+      href: ai-photo-restoration
+    - name: 摄影
+      ename: AI Photography
+      href: ai-photography
+    - name: 个人资料生成
+      ename: AI Profile Picture Generator
+      href: ai-profile-picture-generator
+    - name: 壁纸生成
+      ename: AI Wallpaper Generator
+      href: ai-wallpaper-generator
+    - name: 背景去除
+      ename: AI Background Remover
+      href: ai-background-remover
+    - name: 漫画生成
+      ename: AI Manga & Comic
+      href: ai-manga-comic
+    - name: 模式生成
+      ename: AI Pattern Generator
+      href: ai-pattern-generator
+    - name: 自拍肖像
+      ename: AI Selfie & Portrait
+      href: ai-selfie-portrait
+
+- name: 视频
+  ename: Video
+  icon: fa-film
+  color: deepskyblue
+  sub: 
+    - name: 动漫和卡通生成
+      ename: AI Anime & Cartoon Generator
+      href: ai-anime-cartoon-generator
+    - name: 动画视频
+      ename: AI Animated Video
+      href: ai-animated-video
+    - name: 图像到视频
+      ename: Image to Video
+      href: image-to-video
+    - name: 音乐视频生成
+      ename: AI Music Video Generator
+      href: ai-music-video-generator
+    - name: 视频编辑
+      ename: AI Video Editor
+      href: ai-video-editor
+    - name: 视频增强
+      ename: AI Video Enhancer
+      href: ai-video-enhancer
+    - name: 文本转视频
+      ename: Text to Video
+      href: text-to-video
+    - name: 缩略图制作
+      ename: AI Thumbnail Maker
+      href: ai-thumbnail-maker
+    - name: UGC视频生成
+      ename: AI UGC Video Generator
+      href: ai-ugc-video-generator
+    - name: 视频搜索
+      ename: AI Video Search
+      href: ai-video-search
+    - name: 视频到视频
+      ename: Video to Video
+      href: video-to-video
+    - name: 个性化视频生成
+      ename: AI Personalized Video Generator
+      href: ai-personalized-video-generator
+    - name: 视频生成
+      ename: AI Video Generator
+      href: ai-video-generator
+    - name: 短片生成
+      ename: AI Short Clips Generator
+      href: ai-short-clips-generator
+    - name: 唇音同步生成
+      ename: AI Lip Sync Generator
+      href: ai-lip-sync-generator
+
+- name: 代码编程
+  ename: Code
+  icon: fa-cubes
+  color: yellowgreen
+  sub: 
+    - name: 地图生成
+      ename: AI Maps Generator
+      href: ai-maps-generator
+    - name: DevOps助理
+      ename: AI DevOps Assistant
+      href: ai-devops-assistant
+    - name: 登陆页面生成
+      ename: AI Landing Page Builder
+      href: ai-landing-page-builder
+    - name: 网站生成
+      ename: AI Website Builder
+      href: ai-website-builder
+    - name: 无代码低代码
+      ename: No-Code&Low-Code
+      href: no-code-low-code
+    - name: 代码助手
+      ename: AI Code Assistant
+      href: ai-code-assistant
+    - name: 代码注释
+      ename: Code Explanation
+      href: ai-code-explanation
+    - name: 代码生成
+      ename: AI Code Generator
+      href: ai-code-generator
+    - name: 代码重构
+      ename: AI Code Refactoring
+      href: ai-code-refactoring
+    - name: 监控报告生成
+      ename: AI Monitor & Report Builder
+      href: ai-monitor-report-builder
+    - name: 数据挖掘
+      ename: AI Data Mining
+      href: ai-data-mining
+    - name: 日志管理
+      ename: AI Log Management
+      href: ai-log-management
+    - name: SQL查询生成
+      ename: AI SQL Query Builder
+      href: ai-sql-query-builder
+    - name: 测试和QA
+      ename: AI Testing & QA
+      href: ai-testing-qa
+    - name: API设计
+      ename: AI API Design
+      href: ai-api-design
+    - name: 开发文档
+      ename: AI Developer Docs
+      href: ai-developer-docs
+    - name: 开发工具
+      ename: AI Developer Tools
+      href: ai-developer-tools
+    - name: 搜索引擎
+      ename: AI Search Engine
+      href: ai-search-engine
+    - name: 网页抓取
+      ename: Web Scraping
+      href: ai-web-scraping
+    - name: App生成
+      ename: AI App Builder
+      href: ai-app-builder
+    - name: 浏览器生成
+      ename: AI Browsers Builder
+      href: ai-browsers-builder
+
+
+- name: 声音
+  ename: Voice
+  icon: fa-microphone
+  color: darkmagenta
+  sub: 
+    - name: 音频增强
+      ename: AI Audio Enhancer
+      href: ai-audio-enhancer
+    - name: 音乐生成
+      ename: AI Music Generator
+      href: ai-music-generator
+    - name: 文本转语音
+      ename: Text-to-Speech
+      href: text-to-speech
+    - name: 语音转文本
+      ename: Speech-to-Text
+      href: speech-to-text
+    - name: 语音和音频编辑
+      ename: Voice & Audio Editing
+      href: voice-audio-editing
+    - name: 变声器
+      ename: AI Voice Changer
+      href: ai-voice-changer
+    - name: 语音聊天
+      ename: AI Voice Chat Generator
+      href: ai-voice-chat-generator
+    - name: 语音克隆
+      ename: AI Voice Cloning
+      href: ai-voice-cloning
+    - name: 明星语音生成
+      ename: AI Celebrity Voice Generator
+      href: ai-celebrity-voice-generator
+    - name: Rap生成
+      ename: AI Rap Generator
+      href: ai-rap-generator
+    - name: 语音识别
+      ename: AI Speech Recognition
+      href: ai-speech-recognition
+    - name: 语音合成
+      ename: AI Speech Synthesis
+      href: ai-speech-synthesis
+    - name: 语音助手
+      ename: AI Voice Assistants
+      href: ai-voice-assistants
+    - name: 噪音消除
+      ename: AI Noise Cancellation
+      href: ai-noise-cancellation
+    - name: 文本转音乐
+      ename: Text-to-Music
+      href: text-to-music
+    - name: 歌唱生成
+      ename: AI Singing Generator
+      href: ai-singing-generator
+
+
+- name: 办公商务
+  ename: Business
+  icon: fa-briefcase
+  color: sandybrown
+  sub: 
+    - name: 会计助理
+      ename: AI Accounting Assistant
+      href: accounting-assistant
+    - name: 研究工具
+      ename: Research Tool
+      href: research-tool
+    - name: 商业创意生成
+      ename: AI Business Ideas Generator
+      href: ai-business-ideas-generator
+    - name: 咨询助理
+      ename: AI Consulting Assistant
+      href: ai-consulting-assistant
+    - name: 交易机器人
+      ename: AI Trading Bot Assistant
+      href: ai-trading-bot-assistant
+    - name: 税务助理
+      ename: Tax Assistant
+      href: tax-assistant
+    - name: 投资助理
+      ename: Investing Assistant
+      href: investing-assistant
+    - name: 销售助理
+      ename: Sales Assistant
+      href: sales-assistant
+    - name: NFTs
+      ename: NFTs
+      href: nfts
+    - name: 区块链
+      ename: Blockchain
+      href: blockchain
+    - name: 域名生成
+      ename: Domain Name Generator
+      href: ai-domain-name-generator
+    - name: 电商助理
+      ename: E-commerce Assistant
+      href: e-commerce-assistant
+
+
+- name:  营销
+  ename: Marketing
+  icon: fa-road
+  color: violet
+  sub: 
+    - name: 广告助手
+      ename: AI Advertising Assistant
+      href: advertising-assistant
+    - name: Instagram 助手
+      ename: AI Instagram Assistant
+      href: ai-instagram-assistant
+    - name: Twitter 助手
+      ename: AI Twitter Assistant
+      href: ai-twitter-assistant
+    - name: YouTube 助手
+      ename: AI YouTube Assistant
+      href: ai-youtube-assistant
+    - name: Facebook 助手
+      ename: AI Facebook Assistant
+      href: ai-facebook-assistant
+    - name: Tiktok 助手
+      ename: AI Tiktok Assistant
+      href: ai-tiktok-assistant
+    - name: 分析助手
+      ename: AI Analytics Assistant
+      href: ai-analytics-assistant
+    - name: 客服助理
+      ename: AI Customer Service Assistant
+      href: ai-customer-service-assistant
+    - name: 播客助手
+      ename: AI Podcast Assistant
+      href: ai-podcast-assistant
+    - name: 回复助手
+      ename: AI Reply Assistant
+      href: ai-reply-assistant
+    - name: SEO助手
+      ename: AI SEO Assistant
+      href: ai-seo-assistant
+    - name: 生物助手
+      ename: Bio Link
+      href: bio-link
+    - name: 社交媒体助手
+      ename: AI Social Media Assistant
+      href: ai-social-media-assistant
+    - name: 标签助手
+      ename: AI Hashtag Assistant
+      href: ai-hashtag-assistant
+    - name: 重用助手
+      ename: AI Repurpose Assistant
+      href: ai-repurpose-assistant
+    - name: CRM助手
+      ename: AI CRM Assistant
+      href: ai-crm-assistant
+    - name: 审稿助手
+      ename: AI Reviews Assistant
+      href: ai-reviews-assistant
+    - name: 广告创意助手
+      ename: AI Ad Creative Assistant
+      href: ai-ad-creative-assistant
+    - name: 广告生成
+      ename: AI Ad Generator
+      href: ai-ad-generator
+    - name: 营销计划生成
+      ename: Marketing Plan Generator
+      href: marketing-plan-generator
+    - name: 数字营销生成
+      ename: Digital Marketing Generator
+      href: digital-marketing-generator
+    - name: 邮件助手
+      ename: AI Email Assistant
+      href: ai-email-assistant
+
+
+- name:  AI检测器
+  ename: AI Detector
+  icon: fa-shield
+  color: lightskyblue
+  sub: 
+    - name: AI检测器
+      ename: AI Detector
+      href: ai-detector-1
+    - name: AI论文检查
+      ename: AI Checker Essay
+      href: ai-checker-essay
+    - name: AI 抄袭检查器
+      ename: AI Plagiarism Checker
+      href: ai-plagiarism-checker
+    - name: AI语法检查器
+      ename: AI Grammar Checker
+      href: ai-grammar-checker
+    - name: AI内容检测器
+      ename: AI Content Detector
+      href: ai-content-detector
+
+
+
+
+- name:  聊天机器人
+  ename: Chatbot
+  icon: fa-comments
+  color: green
+  sub: 
+    - name: 聊天机器人  
+      ename: AI Chatbot
+      href: ai-chatbot
+    - name: AI女友
+      ename: AI Girlfriend
+      href: ai-girlfriend
+    - name: AI神
+      ename: AI God
+      href: ai-god
+    - name: AI笑话
+      ename: AI Joke
+      href: ai-joke
+    - name: AI角色
+      ename: AI Character
+      href: ai-character
+
+
+
+
+- name:  设计与艺术
+  ename: Design Art
+  icon: fa-road
+  color: violet
+  sub: 
+    - name: AI艺术生成
+      ename: AI Art Generator
+      href: ai-art-generator
+    - name: AI着色
+      ename: AI Colorize
+      href: ai-colorize
+    - name: AI设计生成器
+      ename: AI Design Generator
+      href: ai-design-generator
+    - name: AI平面设计
+      ename: AI Graphic Design
+      href: ai-graphic-design
+    - name: AI房间设计
+      ename: AI Interior & Room Design
+      href: ai-interior-room-design
+    - name: AI像素艺术
+      ename: AI Pixel Art
+      href: ai-pixel-art
+    - name: AI动漫艺术
+      ename: AI Anime Art
+      href: ai-anime-ai-art
+    - name: 设计助理
+      ename: Design Assistant
+      href: design-assistant
+    - name: AI字体
+      ename: AI Font
+      href: ai-font
+    - name: AI网站设计
+      ename: AI Website Designer
+      href: ai-website-designer
+
+
+
+
+
+- name:  个人助理
+  ename: Life Assistant
+  icon: fa-globe
+  color: turquoise
+  sub: 
+    - name: 烹饪助手
+      ename: AI Cooking Assistant
+      href: ai-cooking-assistant
+    - name: 约会助手
+      ename: AI Dating Assistant
+      href: ai-dating-assistant
+    - name: 旅行规划
+      ename: AI Trip Planner
+      href: ai-trip-planner
+    - name: 菜谱助手
+      ename: AI Recipe Assistant
+      href: ai-recipe-assistant
+    - name: 生活助手
+      ename: Life Assistant
+      href: life-assistant
+    - name: 趣味工具
+      ename: Fun Tools
+      href: fun-tools
+    - name: 路线图生成
+      ename: AI Roadmap Generator
+      href: ai-roadmap-generator
+    - name: 礼物创意
+      ename: AI Gift Ideas
+      href: ai-gift-ideas
+    - name: 面试助手
+      ename: AI Interview Assistant
+      href: ai-interview-assistant
+    - name: 招聘
+      ename: AI Recruiting
+      href: ai-recruiting
+    - name: 简历生成
+      ename: Resume Builder
+      href: ai-resume-builder
+    - name: 求职信生成
+      ename: Cover Letter Generator
+      href: ai-cover-letter-generator
+    - name: 育儿
+      ename: Parenting
+      href: parenting
+    - name: 健身
+      ename: Fitness
+      href: fitness
+    - name: 宗教
+      ename: Religion
+      href: religion
+    - name: 心理健康
+      ename: Mental Health
+      href: mental-health
+    - name: 医疗保健
+      ename: Healthcare
+      href: healthcare
+    - name: 运动
+      ename: Sports
+      href: sports
+    - name: 法律助理
+      ename: Legal Assistant
+      href: legal-assistant
+    - name: 游戏
+      ename: Game
+      href: game
+
+
+
+
+
+
+- name:  3D建模
+  ename: 3D
+  icon: fa-th-large
+  color: mediumpurple
+  sub: 
+    - name: 3D模型生成
+      ename: AI 3D Model Generator
+      href: 3d-model-generator
+    - name: 文本转3D
+      ename: Text to 3D
+      href: text-to-3d
+    - name: 图像转3D模型
+      ename: Image to 3D Model
+      href: image-to-3d-model
+
+
+
+- name:  教育培训
+  ename: Education
+  icon: fa-mortar-board
+  color: mediumpurple
+  sub: 
+    - name: 作业帮手
+      ename: Homework Helper
+      href: ai-homework-helper
+    - name: AI教练
+      ename: AI Coaching
+      href: ai-coaching
+    - name: AI知识库
+      ename: AI Knowledge Base
+      href: ai-knowledge-base
+    - name: AI知识图谱
+      ename: AI Knowledge Graph
+      href: ai-knowledge-graph
+    - name: AI教程
+      ename: AI Tutorial
+      href: ai-tutorial
+    - name: AI课程
+      ename: AI Course
+      href: ai-course
+    - name: AI知识管理
+      ename: AI Knowledge Management
+      href: ai-knowledge-management
+    - name: AI测验
+      ename: AI Quizzes
+      href: ai-quizzes
+    - name: AI教育助手
+      ename: AI Education Assistant
+      href: ai-education-assistant
+
+
+
+
+- name:  Prompt提示词
+  ename: Prompt
+  icon: fa-lightbulb-o
+  color: darkgoldenrod
+  sub: 
+    - name: Prompt提示词
+      ename: Prompt
+      href: prompt
+
+
+
+
+
+
+
+- name:  生产力
+  ename: Productivity
+  icon: fa-plug
+  color: orange
+  sub: 
+    - name: PPT生成
+      ename: AI Presentation Generator
+      href: ai-presentation-generator
+    - name: 电子表格生成
+      ename: AI Spreadsheet
+      href: ai-spreadsheet
+    - name: 录音
+      ename: Recording
+      href: recording
+    - name: WORD生成
+      ename: AI WORD
+      href: ai-word
+    - name: PDF生成
+      ename: AI PDF
+      href: ai-pdf
+    - name: AI生产力工具
+      ename: AI Productivity Tools
+      href: ai-productivity-tools
+    - name: 任务管理
+      ename: AI Task Management
+      href: ai-task-management
+    - name: 团队协作
+      ename: AI Team Collaboration
+      href: ai-team-collaboration
+    - name: 会议助手
+      ename: AI Meeting Assistant
+      href: ai-meeting-assistant
+    - name: 笔记助手
+      ename: AI Notes Assistant
+      href: ai-notes-assistant
+    - name: 工作流程管理
+      ename: AI Workflow Management
+      href: ai-workflow-management
+    - name: SOP管理
+      ename: AI SOP
+      href: ai-sop
+    - name:  项目管理
+      ename: AI Project Management
+      href: ai-project-management
+    - name: 调度管理
+      ename: AI Scheduling
+      href: ai-scheduling
+    - name: 思维导图
+      ename: AI Mind Mapping
+      href: ai-mind-mapping
+    - name: 问卷调查
+      ename: AI Forms & Surveys
+      href: ai-forms-surveys
+    - name: 合同管理
+      ename: AI Contract Management
+      href: ai-contract-management
+    - name: 视频录制
+      ename: AI Video Recording
+      href: ai-video-recording
+    - name: 图表生成
+      ename: AI Diagram Generator
+      href: ai-diagram-generator
+    - name: 文档提取
+      ename: AI Document Extraction
+      href: ai-document-extraction
+    - name: 文档助手
+      ename: AI Documents Assistant
+      href: ai-documents-assistant
+    - name: 文件助手
+      ename: AI Files Assistant
+      href: ai-files-assistant
+
+
+
+
+
+
+
+
+
+
+
+
+- name:  其他AI工具
+  ename: Other
+  icon: fa-wrench
+  color: darkcyan
+  sub: 
+    - name: 大型语言模型（LLM）
+      ename: Large Language Models (LLMs)
+      href: large-language-models-(llms)
+    - name: NSFW
+      ename: NSFW
+      href: nsfw
+    - name: Web3
+      ename: Web3
+      href: web3
+    - name: AI工具目录
+      ename: AI Tools Directory
+      href: ai-tools-directory
+    - name: 时事通讯
+      ename: Newsletter
+      href: newsletter
+    - name: 其他
+      ename: Other
+      href: other

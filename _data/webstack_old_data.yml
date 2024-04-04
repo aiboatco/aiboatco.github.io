@@ -1,0 +1,243 @@
+
+- name:  聊天机器人
+  icon: fa-comments
+  color: green
+  sub: 
+    - name: AI聊天机器人  
+
+
+- name: 文字与写作
+  icon: fa-pencil-square
+  color: cornflowerblue
+  sub: 
+    - name: AI写作工具
+
+    - name: AI论文写作
+
+    - name: AI论文助手
+
+    - name: AI公文写作
+
+
+- name: 图像
+  icon: fa-image
+  color: orangered
+  sub:   
+    - name: AI绘画
+
+    - name: AI商品图
+
+    - name: AI模特生成
+
+    - name: AI换脸
+
+    - name: AI头像生成
+
+    - name: AI3D建模
+
+    - name: AI在线修图
+
+    - name: AI图像增强
+
+    - name: AI抠图
+
+    - name: AILogo设计
+
+    - name: 魔术橡皮擦
+
+    - name: AI去水印
+
+    - name: 图片修复
+
+    - name: 图片压缩
+
+    - name: 图片放大
+
+
+
+- name: 视频
+  icon: fa-film
+  color: deepskyblue
+  sub: 
+    
+    - name: AI视频生成
+
+    - name: AI视频剪辑
+
+    - name: AI虚拟数字人
+
+    - name: AI换脸
+
+    - name: AI3D建模
+
+    - name: AI字幕翻译
+
+
+
+- name: 声音
+  icon: fa-microphone
+  color: darkmagenta
+  sub: 
+
+  
+    - name: AI音频
+
+    - name: AI文字转语音
+
+    - name: AI语音转文字
+
+    - name: AI语音克隆
+
+    - name: AI人声分离
+
+    - name: AI音乐
+
+    - name: AI歌手
+
+    - name: AI编曲
+
+    - name: AI作曲
+
+
+
+- name: 代码编程
+  icon: fa-cubes
+  color: yellowgreen
+  sub: 
+  
+    - name: AI编程工具
+
+    - name: AI无代码低代码
+
+    - name: AI应用开发平台
+
+
+
+- name: 办公商务
+  icon: fa-briefcase
+  color: sandybrown
+  sub: 
+    
+    - name: AI文档工具
+
+    - name: AI PPT
+
+    - name: AI数据可视化
+
+    - name: AI Excel
+
+    - name: AI思维导图
+
+    - name: AI会议工具
+
+    - name: AI效率提升
+
+    - name: AI格式转换
+
+    - name: AI翻译
+
+    - name: 免费商用字体
+
+    - name: 正版字体购买
+
+
+
+
+
+- name:  设计与艺术
+  icon: fa-road
+  color: violet
+  sub: 
+
+    - name: AI设计工具
+
+    - name: 在线设计
+
+    - name: AILogo设计
+
+    - name: AI3D建模
+
+    - name: AI商品图
+
+    - name: AI模特生成
+
+    - name: AI室内设计
+
+    - name: AI建筑设计
+
+    - name: AI头像生成
+
+    - name: 字体设计
+
+
+
+
+
+- name:  AI插件大全
+  icon: fa-plug
+  color: orange
+  sub: 
+  
+    - name: ChatGPT插件
+
+    - name: StableDiffusion插件
+
+    - name: Midjoureny插件
+
+    - name: PSAI插件
+
+
+
+- name:  Prompt提示词
+  icon: fa-lightbulb-o
+  color: darkgoldenrod
+  sub: 
+    - name: Prompt提示词   
+
+- name:  AI检测器
+  icon: fa-shield
+  color: lightskyblue
+  sub: 
+    - name: AI检测器   
+
+
+- name:  其他AI工具
+  icon: fa-wrench
+  color: darkcyan
+  sub: 
+    
+    - name: AI工具集新收录
+
+    - name: AI搜索引擎
+
+    - name:  AI模型下载
+      icon: fa-th-large
+      color: mediumpurple
+
+    - name:  AI大模型
+      icon: fa-th-large
+      color: chartreuse
+
+    - name:  AI开发框架
+      icon: fa-codepen
+      color: burlywood
+
+    - name:  AI社区
+      icon: fa-globe
+      color: turquoise
+
+    - name:  AI开放平台
+      icon: fa-cloud
+      color: deepskyblue
+
+    - name:  AI学习平台
+      icon: fa-mortar-board
+      color: mediumpurple
+
+    - name:  AI竞赛
+      icon: fa-flask
+      color: violet
+
+    - name:  AI算力平台
+      icon: fa-database
+      color: orange
