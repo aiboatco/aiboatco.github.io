@@ -1,0 +1,39 @@
+---
+permalink: /category.html
+layout: category
+---
+
+{% for category in site.data.webstack %}
+
+<h4 class="text-gray" style="font-weight: bold">
+  <i class="{{ category.icon }}" style="width: 2rem; font-size: 1.6rem; color: {{ category.color }}" id="{{ category.name }}"></i>
+  {{ category.name }}
+</h4>
+
+<div class="row">
+
+{% if category.sub %} {% for sub_category in category.sub %}
+
+
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12" onclick="javascript:opehref('/category/{{category.name }}-{{sub_category.name }}');">
+    <div class="xe-widget xe-conversations box1 label-info" style="padding: 20px 30px 0px 30px; height: 60px;">
+      <div class="xe-comment-entry">
+        {% assign sort_products =  site.product | where_exp: "item", "item.prodtags contains sub_category.href" %}
+        <div class="xe-comment">
+          <a href="javascript:opehref('/category/{{category.name }}-{{sub_category.name }}');" class="xe-user-name overflowClip_1">
+             {{sub_category.name }} ({{ sort_products.size }})
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endfor %} 
+</div>
+<br />
+<br />
+<br />
+{% endif %} 
+
+{% endfor %}

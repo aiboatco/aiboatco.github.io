@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        // 获取 URL 参数的函数
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        // 获取 uid 参数的值base64解密
+        var uidParam = atob(getParameterByName('uid'));
+
+        // 刷新页面并跳转
+        setTimeout(function() {
+            window.location.href = uidParam;
+        }, 0);
+    </script>
+</head>
+<body>
+    <p>Redirecting to the specified URL...</p>
+</body>
+</html>
