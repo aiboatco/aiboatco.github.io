@@ -148,26 +148,26 @@ $(document).ready(function(){
       $('.post-directory').css('max-height', height);
   }
 
-  $(window).scroll(function() {
-    var currentScroll = $(window).scrollTop();
-    if (currentScroll >= fixmeTop) {
-      $('#post-directory-module').css({
-        top: '0',
-        position: 'fixed',
-        width: 'inherit'
-      });
-      $('.post-directory').css('overflow', 'auto');
-    } else {
-      $('#post-directory-module').css({
-        position: 'inherit',
-        width: 'inherit'
-      });
-      $('.post-directory').css('overflow', 'hidden');
-      $('.post-directory').scrollTop(0);
-    }
+  // $(window).scroll(function() {
+  //   var currentScroll = $(window).scrollTop();
+  //   if (currentScroll >= fixmeTop) {
+  //     $('#post-directory-module').css({
+  //       top: '160px',
+  //       position: 'fixed',
+  //       width: 'inherit'
+  //     });
+  //     $('.post-directory').css('overflow', 'auto');
+  //   } else {
+  //     $('#post-directory-module').css({
+  //       position: 'inherit',
+  //       width: 'inherit'
+  //     });
+  //     $('.post-directory').css('overflow', 'hidden');
+  //     $('.post-directory').scrollTop(0);
+  //   }
 
-    highlightTocSection();
-  });
+  //   highlightTocSection();
+  // });
 
   updateTocHeight();
 
