@@ -1,0 +1,17 @@
+---
+---
+{% capture json %}
+[
+  {% for pg in site.course %}
+  {% if pg.title != nil %}
+    {
+      "title"    : "{{ pg.title | escape }}",
+      "url"      : "{{ site.url }}{{ pg.url }}",
+      "keywords" : "{{ pg.keywords | escape }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endif %}
+  {% endfor %}
+]
+{% endcapture %}
+
+{{ json | lstrip }}

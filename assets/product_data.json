@@ -1,0 +1,17 @@
+---
+---
+{% capture json %}
+[
+  {% for pg in site.product %}
+  {% if pg.title != nil %}
+    {
+      "title"    : "{{ pg.prodtitle | escape }}",
+      "url"      : "{{ site.url }}{{ pg.permalink }}",
+      "keywords" : "{{ pg.proddescription | escape }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endif %}
+  {% endfor %}
+]
+{% endcapture %}
+
+{{ json | lstrip }}
