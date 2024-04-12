@@ -5,10 +5,12 @@
   {% for pg in site.product %}
   {% if pg.title != nil %}
     {
+      "content"  : "{{ pg.proddescription }}",
+      "tags"     : "{{ pg.prodimage }}",
       "title"    : "{{ pg.prodtitle | escape }}",
-      "url"      : "{{ site.url }}{{ pg.permalink }}",
-      "keywords" : "{{ pg.proddescription | escape }}"
-    } {% unless forloop.last %},{% endunless %}
+      "url"      : "{{ pg.permalink }}",
+      "keywords" : "{{ pg.prodtitle | escape }}{{ pg.proddescription | escape }}"      
+      } {% unless forloop.last %},{% endunless %}
   {% endif %}
   {% endfor %}
 ]
