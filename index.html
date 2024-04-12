@@ -22,7 +22,8 @@ SimpleJekyllSearch({
     searchInput: document.getElementById('search_box'),
     resultsContainer: document.getElementById('search_results'),
     json: '{{ site.url }}/assets/product_data.json?v={{ "now" | date: "%s"}}',
-    searchResultTemplate: '<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><div class="xe-widget xe-conversations box2 label-info" onclick="openhref({url})" data-placement="bottom" title="{content}" style="height: initial; padding: 0;"><div class="xe-comment-entry"><a class="xe-user-img"><img src="{tags}" class="img-circle" style="width: 100%;float: none;border-radius: initial;margin: initial;"></a><div class="xe-comment" style="height: 8rem; padding-left: 10px; padding-right: 10px;"><a href="#" class="xe-user-name overflowClip_1" style="font-size: 1.28rem; padding-top: 20px;"><strong>{title}</strong></a><p class="overflowClip_2" style="margin-top: 10px;font-size: 1rem;">{content}</p></div></div></div></div>',    noResultsText: '你要找的AI工具不存在',
+    searchResultTemplate: '<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><div class="xe-widget xe-conversations box2 label-info" onclick="openhref(\'{url}\')" data-placement="bottom" title="{content}" style="height: initial; padding: 0;"><div class="xe-comment-entry"><a class="xe-user-img"><img src="{tags}" class="img-circle" style="width: 100%;float: none;border-radius: initial;margin: initial;"></a><div class="xe-comment" style="height: 8rem; padding-left: 10px; padding-right: 10px;"><a href="#" class="xe-user-name overflowClip_1" style="font-size: 1.28rem; padding-top: 20px;"><strong>{title}</strong></a><p class="overflowClip_2" style="margin-top: 10px;font-size: 1rem;">{content}</p></div></div></div></div>',    
+    noResultsText: '你要找的AI工具不存在',
     limit: 30,
     fuzzy: false,
     exclude: ['Welcome']
